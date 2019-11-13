@@ -16,7 +16,7 @@ def reduce(array, starting_point = 0)
   
   i = 0
   if i < array.length do
-    
+    total = (yield(total, array[i]))
   end
-  
+  total
 end
