@@ -15,7 +15,8 @@ def reduce(array, starting_point = 0)
   if starting_point
     total = starting_point
     i = 0
-  else total = 
+  else total = array[0]
+    i = 1
   end
   i = 0
   while i < array.length do
